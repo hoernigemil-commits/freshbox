@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produkt | FreshBox</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<a href="index.html" class="logo-container">
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" class="logo-img">
+<span class="logo-text">FreshBox</span>
+</a>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="cart.html">Warenkorb (<span id="cart-count">0</span>)</a></li>
+<li><a href="support.html">Support</a></li>
+<li><a href="newsletter.html">Newsletter</a></li>
+</ul>
+
+</nav>
+
+
+<section class="product-detail">
+
+<img src="https://images.unsplash.com/photo-1608756687911-aa1599ab3bd9?auto=format&fit=crop&w=800&q=80" alt="Italian Pasta Box">
+
+<div class="product-info">
+
+<h1>Italian Pasta Box</h1>
+
+<p class="rating">⭐⭐⭐⭐⭐ 4.8 (2.341 Bewertungen)</p>
+
+<p>
+Koche authentische italienische Pasta mit frischen Zutaten direkt zu dir nach Hause geliefert.
+</p>
+
+<h3>Zutaten</h3>
+<ul>
+<li>Frische Pasta</li>
+<li>Tomatensauce</li>
+<li>Parmesan</li>
+<li>Basilikum</li>
+</ul>
+
+<h3>Zubereitungszeit</h3>
+<p>20 Minuten</p>
+
+<h3>Nährwerte</h3>
+<p>650 kcal</p>
+
+<h2>€12.99</h2>
+
+<button class="btn" onclick="addToCart('Italian Pasta Box',12.99)">
+In den Warenkorb
+</button>
+
+</div>
+
+</section>
+
+
+<section class="reviews">
+
+<h2>Kundenbewertungen</h2>
+
+<div class="review">
+<p><strong>Max:</strong> „Schmeckt wie im Restaurant!“ ⭐⭐⭐⭐⭐</p>
+</div>
+
+<div class="review">
+<p><strong>Lisa:</strong> „Super einfach zu kochen!“ ⭐⭐⭐⭐⭐</p>
+</div>
+
+<div class="review">
+<p><strong>Tom:</strong> „Würde ich wieder bestellen.“ ⭐⭐⭐⭐</p>
+</div>
+
+</section>
+
+
+<footer>
+<p>© FreshBox 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
