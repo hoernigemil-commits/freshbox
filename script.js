@@ -257,8 +257,8 @@ function fakeOrders() {
 
 fakeOrders();// FAKE LIVE BESTELLUNGEN (UPDATE: länger sichtbar)
 function fakeOrders() {
-    const names = ["Leo Eulitz", "Alfred Kackt Geld", "Tom Black", "Felix Thiele", "Rainer Wilnkler", "Dirk Pezolt"];
-    const cities = ["Leos Mistfarm", "Reichenvieltel", "Buxtehude", "Drachenschantze"];
+    const names = ["Leo Eulitz", "Alfred Kackt Geld", "Tom Black", "Felix Thiele", "Rainer Wilnkler", "Dirk Pezolt", "Nase", "Johanna", "Elias ON Kräuter"];
+    const cities = ["Leos Mistfarm", "Reichenvieltel", "Buxtehude", "Drachenschanze"];
     const products = ["Pasta Box", "Burger Box", "Sushi Kit", "Taco Box", "Smoothie Pack", "Veggie Box"];
 
     setInterval(() => {
@@ -274,7 +274,7 @@ function fakeOrders() {
 
         // Länger sichtbar: 7 Sekunden statt 4
         setTimeout(() => div.remove(), 7000);
-    }, 5000); // alle 5 Sekunden neue Bestellung
+    }, 3000); // alle 5 Sekunden neue Bestellung
 }
 
 fakeOrders();
@@ -360,3 +360,4 @@ function exportCartAsTXT() {
 
     URL.revokeObjectURL(url);
 }
+
