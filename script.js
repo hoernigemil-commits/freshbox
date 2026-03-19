@@ -258,7 +258,7 @@ function fakeOrders() {
 fakeOrders();// FAKE LIVE BESTELLUNGEN (UPDATE: länger sichtbar)
 function fakeOrders() {
     const names = ["Leo Eulitz", "Alfred Kackt Geld", "Tom Black", "Felix Thiele", "Rainer Wilnkler", "Dirk Pezolt"];
-    const cities = ["Leos Mistfarm", "Reichenvieltel", "Buxtehude", "Drachenschantze"];
+    const cities = ["Leos Mistfarm", "Reichenviertel", "Buxtehude", "Drachenschantze"];
     const products = ["Pasta Box", "Burger Box", "Sushi Kit", "Taco Box", "Smoothie Pack", "Veggie Box"];
 
     setInterval(() => {
